@@ -1,0 +1,35 @@
+{
+  "name": "default-project-with-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/araujowebdev/default-project-with-sass.git"
+  },
+  "author": "Raphael Araujo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/araujowebdev/default-project-with-sass/issues"
+  },
+  "homepage": "https://github.com/araujowebdev/default-project-with-sass#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.18.10",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "browser-sync": "^2.27.10",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.54.4"
+  }
+}
