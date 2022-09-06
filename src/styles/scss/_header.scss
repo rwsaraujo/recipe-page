@@ -22,7 +22,7 @@ p {
 
 p::before {
   display: block;
-  content: url(../../../dist/assets/imgs/icons/6dots.svg);
+  content: url(/dist/assets/imgs/icons/6dots.svg);
 }
 
 @media screen and (max-width: 768px) {
