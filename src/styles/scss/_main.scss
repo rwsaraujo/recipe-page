@@ -1,0 +1,190 @@
+main {
+  img {
+    width: 100%;
+    margin-bottom: 48px;
+  }
+
+  section {
+    position: relative;
+
+    div.recipe-info {
+      position: absolute;
+      right: 0;
+      width: 216px;
+      display: grid;
+      grid-template-columns: 1fr;
+      row-gap: 43px;
+      padding-top: 53px;
+      padding-bottom: 53px;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+      font-family: "Montserrat", sans-serif;
+      border-radius: 12px;
+
+      &__item {
+        display: flex;
+        padding-left: 43px;
+        gap: 14px;
+        align-items: center;
+
+        h2 {
+          font-weight: 700;
+          font-size: 10px;
+          line-height: 12px;
+          text-transform: uppercase;
+          color: #bdbdbd;
+          margin-bottom: 4px;
+        }
+
+        p {
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 17px;
+          color: #333333;
+        }
+      }
+
+      &__item:nth-child(1) p,
+      &__item:nth-child(1) span {
+        color: #f2994a;
+      }
+    }
+
+    div.ingredients {
+      max-width: 540px;
+
+      h2 {
+        font-family: "Playfair Display", serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: #333333;
+        margin-bottom: 32px;
+      }
+
+      &__group {
+        margin-bottom: 40px;
+
+        h3 {
+          font-family: "Playfair Display", serif;
+          font-style: italic;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 24px;
+          margin-bottom: 30px;
+        }
+
+        &-item {
+          display: flex;
+          gap: 17px;
+          align-items: flex-start;
+          margin-bottom: 12px;
+
+          input {
+            margin-top: 6px;
+          }
+
+          label {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 25px;
+            color: #333333;
+
+            strong {
+              color: currentColor;
+            }
+
+            span {
+              font-style: italic;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    img {
+      margin-bottom: 24px;
+    }
+    section {
+      div.recipe-info {
+        grid-template-columns: unset;
+        row-gap: 20px;
+        padding-top: unset;
+        padding-bottom: 30px;
+        box-shadow: none;
+        border-radius: unset;
+        position: initial;
+        width: 100%;
+        grid-template-areas:
+          "yields yields yields"
+          "prep cook total";
+
+        &__item:nth-child(1) {
+          grid-area: yields;
+        }
+
+        &__item:nth-child(2) {
+          grid-area: prep;
+        }
+
+        &__item:nth-child(3) {
+          grid-area: cook;
+        }
+
+        &__item:nth-child(4) {
+          grid-area: total;
+        }
+
+        &__item {
+          padding-left: 0;
+          gap: 5px;
+
+          div {
+            h2 {
+              font-size: 8px;
+              line-height: 10px;
+              margin-bottom: unset;
+            }
+
+            p {
+              font-size: 10px;
+              line-height: 12px;
+            }
+          }
+        }
+      }
+
+      div.ingredients {
+        max-width: 100%;
+
+        h2 {
+          font-size: 18px;
+          line-height: 24px;
+          margin-bottom: 13px;
+        }
+
+        &__group {
+          h3 {
+            margin-bottom: 23px;
+            font-size: 16px;
+            line-height: 21px;
+          }
+
+          &-item {
+            gap: 8px;
+            margin-bottom: 12px;
+
+            label {
+              font-size: 14px;
+              line-height: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

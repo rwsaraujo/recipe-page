@@ -9,6 +9,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <!-- Material Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
   <!-- CSS -->
   <link rel="stylesheet" href="./dist/styles/style.css">
   <!-- JavaScript -->
@@ -22,6 +24,107 @@
     <h1>Classic Cheesecake Recipe</h1>
     <p>Look no further for a creamy and ultra smooth classic cheesecake recipe! Paired with a buttery graham cracker crust, no one can deny its simple decadence. For the best results, bake in a water bath.</p>
   </header>
+
+  <main class="container">
+    <img src="./dist/assets/imgs/photo1.png" alt="Cheesecake">
+    <section>
+
+      <!-- Recipe preparation info -->
+      <div class="recipe-info">
+        <div class="recipe-info__item">
+          <span class="material-symbols-outlined">
+            local_dining
+          </span>
+          <div>
+            <h2>Yields</h2>
+            <p>12 servings</p>
+          </div>
+        </div>
+        <div class="recipe-info__item">
+          <span class="material-symbols-outlined">
+            schedule
+          </span>
+          <div>
+            <h2>Prep Time</h2>
+            <p>45 minutes</p>
+          </div>
+        </div>
+        <div class="recipe-info__item">
+          <span class="material-symbols-outlined">
+            schedule
+          </span>
+          <div>
+            <h2>Cook Time </h2>
+            <p>1 hour</p>
+          </div>
+        </div>
+        <div class="recipe-info__item">
+          <span class="material-symbols-outlined">
+            schedule
+          </span>
+          <div>
+            <h2>Total Time</h2>
+            <p>7,75 hours</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ingredients -->
+      <div class="ingredients">
+        <h2>Ingredients</h2>
+
+        <!-- Graham Cracker Crust -->
+        <div class="ingredients__group">
+          <h3>Graham Cracker Crust</h3>
+          <div class="ingredients__group-item">
+            <input type="checkbox" id="ingredient-1" name="ingredient-1">
+            <label for="ingredient-1">1 and 1/2 cups (150g) <strong>graham cracker crumbs</strong> (about 10 full sheet graham crackers)</label>
+          </div>
+          <div class="ingredients__group-item">
+            <input type="checkbox" id="ingredient-2" name="ingredient-2">
+            <label for="ingredient-2">5 Tablespoons (70g) <strong>unsalted butter</strong>, melted</label>
+          </div>
+          <div class="ingredients__group-item">
+            <input type="checkbox" id="ingredient-3" name="ingredient-3">
+            <label for="ingredient-3">1/4 cup (50g) <strong>granulated sugar</strong></label>
+          </div>
+        </div>
+
+        <!-- Cheesecake -->
+        <div class="ingredients__group">
+          <h3>Cheesecake</h3>
+          <div class="ingredients__group-item">
+            <input type="checkbox" id="ingredient-4" name="ingredient-4">
+            <label for="ingredient-4">four 8-ounce blocks (904g) full-fat <strong>cream cheese</strong>, softened to room temperature</label>
+          </div>
+          <div class="ingredients__group-item">
+            <input type="checkbox" id="ingredient-5" name="ingredient-5">
+            <label for="ingredient-5">1 cup (200g) <strong>granulated sugar</strong></label>
+          </div>
+          <div class="ingredients__group-item">
+            <input type="checkbox" id="ingredient-6" name="ingredient-6">
+            <label for="ingredient-6">1 cup (240g) full-fat <strong>sour cream</strong>, at room temperature</label>
+          </div>
+          <div class="ingredients__group-item">
+            <input type="checkbox" id="ingredient-7" name="ingredient-7">
+            <label for="ingredient-7">1 teaspoon <strong>pure vanilla extract</strong></label>
+          </div>
+          <div class="ingredients__group-item">
+            <input type="checkbox" id="ingredient-8" name="ingredient-8">
+            <label for="ingredient-8">2 teaspoons <strong>fresh lemon juice</strong> (optional, but recommended)</label>
+          </div>
+          <div class="ingredients__group-item">
+            <input type="checkbox" id="ingredient-9" name="ingredient-9">
+            <label for="ingredient-9">3 large <strong>eggs</strong>, at room temperature</label>
+          </div>
+          <div class="ingredients__group-item">
+            <input type="checkbox" id="ingredient-10" name="ingredient-10">
+            <label for="ingredient-10">topping suggestions: <span>salted caramel, lemon curd, strawberry topping, chocolate ganache, red wine chocolate ganache, fresh fruit, whipped cream, or raspberry sauce</span> (recipe in notes) </label>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
