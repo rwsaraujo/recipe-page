@@ -1,12 +1,15 @@
 main {
+  // Recipe Image
   img {
     width: 100%;
     margin-bottom: 48px;
   }
 
+  // Main section
   section {
     position: relative;
 
+    // Recipe info
     div.recipe-info {
       position: absolute;
       right: 0;
@@ -49,9 +52,8 @@ main {
       }
     }
 
-    div.ingredients {
-      max-width: 540px;
-
+    div.ingredients,
+    div.instructions {
       h2 {
         font-family: "Playfair Display", serif;
         font-weight: 700;
@@ -60,6 +62,11 @@ main {
         color: #333333;
         margin-bottom: 32px;
       }
+    }
+
+    // Ingredients
+    div.ingredients {
+      max-width: 540px;
 
       &__group {
         margin-bottom: 40px;
@@ -101,6 +108,63 @@ main {
         }
       }
     }
+
+    // Instructions
+    div.instructions {
+      max-width: 600px;
+      margin-bottom: 60px;
+
+      ul {
+        display: grid;
+        gap: 30px;
+
+        li {
+          display: grid;
+          grid-template-columns: 36px auto;
+          gap: 15px;
+
+          div {
+            // width: 36px;
+            height: 36px;
+            background-color: #f2994a;
+            border-radius: 6px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-family: "Playfair Display", serif;
+            font-weight: 700;
+            font-size: 24px;
+          }
+
+          p {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #333333;
+
+            strong {
+              color: currentColor;
+            }
+          }
+        }
+      }
+    }
+
+    a {
+      font-family: "Montserrat", sans-serif;
+      font-style: italic;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #bdbdbd;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 }
 
@@ -109,6 +173,7 @@ main {
     img {
       margin-bottom: 24px;
     }
+
     section {
       div.recipe-info {
         grid-template-columns: unset;
@@ -158,14 +223,16 @@ main {
         }
       }
 
+      div.ingredients h2,
+      div.instructions h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 13px;
+      }
+
+      // Ingredients
       div.ingredients {
         max-width: 100%;
-
-        h2 {
-          font-size: 18px;
-          line-height: 24px;
-          margin-bottom: 13px;
-        }
 
         &__group {
           h3 {
@@ -184,6 +251,17 @@ main {
             }
           }
         }
+      }
+
+      // Instructions
+      div.instructions {
+        max-width: 100%;
+        margin-bottom: 26px;
+      }
+
+      a {
+        font-size: 12px;
+        line-height: 18px;
       }
     }
   }
