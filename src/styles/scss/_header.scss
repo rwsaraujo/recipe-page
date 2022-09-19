@@ -1,9 +1,6 @@
 header {
   h1 {
-    font-family: "Playfair Display", serif;
-    font-weight: 700;
-    font-size: 3rem;
-    line-height: 4rem;
+    font: 700 3rem/4rem "Playfair Display", serif;
     margin-top: 52px;
     margin-bottom: 12px;
   }
@@ -12,11 +9,7 @@ header {
     display: flex;
     gap: 12px;
     max-width: 700px;
-    font-family: "Montserrat", sans-serif;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 0.875rem;
-    line-height: 1.0625rem;
+    font: 500 italic 0.875rem/1.0625rem "Montserrat", sans-serif;
     color: #4f4f4f;
     margin-bottom: 43px;
   }

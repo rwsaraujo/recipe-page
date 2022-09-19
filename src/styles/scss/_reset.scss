@@ -21,6 +21,7 @@ ol,
 ul,
 li,
 article,
+label,
 aside,
 footer,
 header,
@@ -29,8 +30,9 @@ section {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
+  font-size: 100%;
+  line-height: 1rem;
   vertical-align: baseline;
   background: none;
   color: inherit;
