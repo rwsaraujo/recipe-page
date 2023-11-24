@@ -1,22 +1,20 @@
 # Recipe Page
 
-O Recipe page é uma página onde o usuário pode ver todas as informações e instruções necessárias para que ele obtenha sucesso na sua aventura culinária.
+The Recipe page is a page where the user can see all the information and instructions necessary for them to be successful in their culinary adventure.
 
-Este projeto foi desenvolvido como um desafio proposto pelo site devChallenges como forma de consolidação de conhecimentos na construção de páginas responsivas (nível iniciante).
+This project was developed as a challenge proposed by the devChallenges website as a way of consolidating knowledge in building responsive pages (beginner level).
 
-Logo abaixo você poderá encontrar o link para o deploy do projeto.
+Below you can find the link to deploy the project.
 
-| Sobre       |                                                                                          |
-| ----------- | ---------------------------------------------------------------------------------------- |
-| Nome        | **Recipe Page**                                                                          |
-| Tecnologias | HTML5, Scss, JavaScript e Gulp                                                           |
-| URL         | [**https://rwsaraujo.github.io/recipe-page/**](https://rwsaraujo.github.io/recipe-page/) |
+| About        |                                                                                          |
+| ------------ | ---------------------------------------------------------------------------------------- |
+| Name         | **Recipe Page**                                                                          |
+| Technologies | HTML5 & SCSS                                                                             |
+| URL          | [**https://rwsaraujo.github.io/recipe-page/**](https://rwsaraujo.github.io/recipe-page/) |
 
-## Tecnologias do projeto
+## Project Technologies
 
 <div>
   <img src="https://img.shields.io/badge/HTML5-dd4b25?style=for-the-badge&logo=html5&logoColor=fff">
   <img src="https://img.shields.io/badge/scss-c66394?style=for-the-badge&logo=sass&logoColor=fff">
-  <img src="https://img.shields.io/badge/javascript-efd81d?style=for-the-badge&logo=javascript&logoColor=000">
-  <img src="https://img.shields.io/badge/gulp-d34446?style=for-the-badge&logo=gulp&logoColor=fff">
 </div>
