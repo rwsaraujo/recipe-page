@@ -4,11 +4,15 @@
   "description": "The Recipe page is a page where the user can see all the information and instructions necessary for them to be successful in their culinary adventure.",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch src/style/style.scss build/style/style.css --style compressed"
+    "sass": "sass --watch src/style/style.scss build/style/style.css --style compressed",
+    "compressjs": "uglifyjs src/js/script.js -c -o build/js/script.js"
   },
   "author": "Raphael Araujo",
   "license": "ISC",
   "dependencies": {
     "sass": "^1.69.5"
+  },
+  "devDependencies": {
+    "uglify-js": "^3.17.4"
   }
 }
