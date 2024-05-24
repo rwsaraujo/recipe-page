@@ -6,11 +6,11 @@ This project was developed as a challenge proposed by the devChallenges website 
 
 Below you can find the link to deploy the project.
 
-| About        |                                                                                          |
-| ------------ | ---------------------------------------------------------------------------------------- |
-| Name         | **Recipe Page**                                                                          |
-| Technologies | HTML5 & SCSS                                                                             |
-| URL          | [**https://rwsaraujo.github.io/recipe-page/**](https://rwsaraujo.github.io/recipe-page/) |
+| About        |                                                                                                                          |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------ |
+| Name         | **Recipe Page**                                                                                                          |
+| Technologies | HTML5 & SCSS                                                                                                             |
+| Live Site    | [**https://rwsaraujo.github.io/recipe-page---devchallenges/**](https://rwsaraujo.github.io/recipe-page---devchallenges/) |
 
 ## Project Technologies
 
