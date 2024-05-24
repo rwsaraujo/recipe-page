@@ -1,0 +1,50 @@
+:root {
+  --white: #fafafa;
+  --black: #111111;
+  --darkgray: #333333;
+  --mediumgray: #4f4f4f;
+  --lightgray: #bdbdbd;
+  --orange: #f2994a;
+}
+
+// Text Colors
+.txt {
+  &-white {
+    color: var(--white);
+  }
+  &-black {
+    color: var(--black);
+  }
+  &-darkgray {
+    color: var(--darkgray);
+  }
+  &-mediumgray {
+    color: var(--mediumgray);
+  }
+  &-lightgray {
+    color: var(--lightgray);
+  }
+  &-orange {
+    color: var(--orange);
+  }
+}
+
+// Background Colors {
+.bg {
+  &-white {
+    background: var(--white);
+  }
+  &-orange {
+    background: var(--orange);
+  }
+}
+
+// Link Colors
+.link {
+  color: var(--lightgray);
+  transition: 0.2s;
+
+  &:hover {
+    color: var(--black);
+  }
+}

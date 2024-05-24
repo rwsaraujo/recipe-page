@@ -1,0 +1,25 @@
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.center-v {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.rounded-6 {
+  border-radius: 6px;
+}
+
+.rounded-12 {
+  border-radius: 12px;
+}

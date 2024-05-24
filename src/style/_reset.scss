@@ -1,55 +1,8 @@
 * {
-  color: #000;
-  box-sizing: border-box;
-}
-
-html,
-body,
-div,
-span,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a,
-button,
-img,
-ol,
-ul,
-li,
-article,
-label,
-aside,
-footer,
-header,
-nav,
-section {
   margin: 0;
   padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  line-height: 1rem;
-  vertical-align: baseline;
-  background: none;
-  color: inherit;
-}
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-footer,
-header,
-nav,
-section {
-  display: block;
-}
-body {
+  box-sizing: border-box;
+  font-size: 1rem; /* 16px */
+  font-weight: 400; /* normal */
   line-height: 1;
-}
-ol,
-ul {
-  list-style: none;
 }

@@ -1,5 +1,22 @@
+body {
+  min-height: 100vh;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
 .container {
-  max-width: 970px;
+  width: 100%;
+  max-width: 60rem; /* 960px */
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 1rem; /*0 16px */
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    gap: 1rem;
+  }
+
+  .container {
+    padding: 0 0.5rem;
+  }
 }
